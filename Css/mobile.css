@@ -1,0 +1,329 @@
+* { 
+    box-sizing: border-box;
+}
+/* Body Start */
+body {
+     margin: 0px;
+      padding: 0px;
+       font-family: "Fira Sans", sans-serif;
+}
+/* Body End */
+/* Style Start */
+
+/* All Content Start */
+
+.all-content {
+    width: 100%;
+    display: block;
+}
+/* All Content End */
+/* Nav Bar Start */
+.nav-bar { 
+    text-align: center;
+    display:inline;
+}
+/* Nav Bar End */
+/* All Menu Content Start */
+
+.all-menu-content {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    align-items: center;
+    background-color: teal; 
+}
+/* All Menu Content End */
+.logo { }
+.logo img { }
+.menu-bar { }
+/* Menu Bar Items Start */
+.menu-bar-items {
+    float: none;
+    margin: auto; 
+    }
+.menu-bar-items li {
+    padding: 10px;
+    list-style: none;
+    float: none;
+    background-color: rgb(255, 187, 85);
+    transition: all 0.5s ease 0s; 
+        }
+.menu-bar-items li a {
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+     }
+.menu-bar-items li:hover { 
+    background-color: transparent;
+    box-shadow: black 0px 0px 4px 1px inset;
+    color: rgb(255, 187, 85); 
+    }
+.menu-bar-items li :hover { 
+    color: rgb(255, 255, 255);
+    box-shadow: black 0px 0px 0px;
+    border: none;
+    padding: 0px;
+        transition: all 0.5s ease 0s;
+}
+/* Menu Bar Items End */
+/* Profile Style Start */
+.profile {
+    background-image: linear-gradient(rgba(55, 59, 68, 0.65), rgba(66, 134, 244, 0.6)), url("../images/alamin.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 130px 10px;
+    text-align: center;
+}
+.profile .weather-icon {
+    position: absolute;
+    top: 500px;
+    right: 60px;
+    transition: transfrom 2s ease 0s;
+     }
+.profile .weather-icon:hover {
+    transform: rotate(360deg); 
+    }
+.bottom-weather-icon {
+    position: absolute;
+    left: 8%;
+    top: 830px;
+    transition: transform 2s ease 0s;
+}
+.bottom-weather-icon:hover {
+    transform: rotate(360deg);
+}
+.profile .top-weather-icon {
+    position: absolute;
+    top: -55px;
+    left: -100px;
+    transition: transform 2s ease 0s;
+}
+.profile .top-weather-icon:hover { 
+    transform: rotate(360deg);
+ }
+.profile-heading h1 {
+    font-size: 30px;
+    font-family: Satisfy, cursive;
+}
+.profile-heading h1 { 
+    color: rgb(0, 255, 34);
+    text-shadow: black 2px 3px 6px;
+}
+.profile-heading p {
+    color: rgb(221, 221, 221);
+    margin: 20px auto 0px;
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+}
+/* Profile Style End */
+/* About Style Start */
+.about-me{
+    background-color: #39a4ac;
+    padding:1% 7%;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.about-me-image img{
+width: 200px;
+height: 300px;
+box-shadow: 5px 4px 0px 0px #fb5200;
+border-radius: 12px;
+}
+
+.about-me::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* About Style End */
+/* Experience Start */
+.experience{
+
+}
+.card{
+    width: 95%;
+    margin-left:-8px;
+}
+.card-title{
+
+}
+.card-description{
+    
+}
+/* Experience End */
+/* Services Design Start */
+.services-box{
+
+}
+.services-box-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.services-single-items{
+    background-color: indigo;
+    color: white;
+    width: 90%;
+    height: 250px;
+    border-radius: 12px;
+    margin: 10px 0;
+    transition: .5s;
+}
+.services-single-items h1{
+    text-align: center;
+    font-size: 25px;
+    padding:20px 10px;
+}
+.services-single-items p{
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height:25px;
+    padding:0px 10px;
+    font-family: cursive;
+}
+
+/* Services Design End */
+
+/* Contact Box Start */
+#contact{
+    background-color: teal;
+}
+.contact-header h1{
+    text-align: center;
+    font-size: 33px;
+    color: #ffffff;
+    padding-top: 20px;
+
+}
+.small-heading{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+
+}
+#color-hr{
+    color:white;
+}
+#contact::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* #contact{
+    background: teal;
+    height: 635px;
+    color: white;
+}
+.contact-header{
+
+text-align: center;
+
+font-size: 33px;
+
+padding: 20px;
+
+margin-bottom: -25px;
+}
+.log-in-form{
+
+text-align: center;
+
+
+
+position: relative;
+}
+.input-box input{
+
+background: white;
+
+border: none;
+
+padding: 10px;
+
+margin: 10px;
+
+margin-bottom: 20px;
+
+border-radius: 5px;
+
+width: 70%;
+
+outline: none;
+
+text-align: center;
+
+font-size: 15px;
+}
+.massage-box textarea{
+
+resize: none;
+
+border: none;
+
+outline: none;
+
+width: 70%;
+
+border-radius: 5px;
+
+font-size: 15px;
+
+padding: 10px;
+}
+.send-button input{
+
+border: navajowhite;
+
+outline: none;
+
+padding: 10px;
+
+border-radius: 5px;
+
+width: 150px;
+
+font-size: 15px;
+
+font-weight: 600;
+
+font-family: inherit;
+
+background-color: #052d2f;
+
+color: white;
+
+top: 340px;
+
+left: 160px;
+
+position: absolute;
+cursor: pointer;
+}
+.small-heading {
+    text-align: center;
+    font-size: 25px;
+}
+.rest-button input{
+    border: navajowhite;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: #052d2f;
+    color: white;
+    position: absolute;
+    top: 340px;
+    left: 330px;
+    cursor: pointer;
+} */
+
+/* Contact Box End */
+/* Style End */

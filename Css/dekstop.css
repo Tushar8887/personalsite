@@ -1,0 +1,125 @@
+/*dekstop view */
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width: 25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width: 75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+/* About Style Start */
+.about-me{
+
+}
+.about-heading h1{
+
+}
+.dotted-hr{
+
+}
+.about-me-image img{
+    border-radius: 12px;
+    width: 200px;
+    height: 300px;
+    box-shadow: 5px 4px 0px 0px #fb5200;
+}
+.about-me-description p{
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 10px 0;
+}
+.about-me-hr{
+
+}
+.about-me-description{
+    text-align: left;
+}
+.dwounload-buton{
+
+}
+.CV-dwoundload-buton a{
+
+}
+.CV-dwounload-buton a button{
+ 
+}
+.about-me::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* Services Design Start */
+.services-box {
+    height: 611PX;
+}
+
+.services-box-items{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-right: 22px;
+}
+.services-single-items{
+
+background-color: indigo;
+
+color: white;
+
+width: 95%;
+
+height: 250px;
+
+border-radius: 12px;
+
+margin: 10px 20px;
+transition: .5s;
+}
+.services-single-items h1{
+    text-align: center;
+    font-size: 25px;
+    padding:20px 10px;
+}
+.services-single-items p{
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height:25px;
+    padding:0px 10px;
+    font-family: cursive;
+}
+.small-heading{
+    text-align: center;
+    font-size: 25px;
+}
+h1{
+    color: black;
+    font-size: 33px;
+}
+.dotted-hr{
+    color: black;
+}
+.social-button{
+    margin-top:100px
+}
+.social-button button{
+    border: none;
+    border-radius: 12px;
+    font-size: 30px;
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+/* Services Design End */
+/* Footer Start  */
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+    display:inline;
+    padding: 15px;
+}
+/* Footer Ends */

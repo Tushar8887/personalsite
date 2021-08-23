@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Satisfy', cursive; */
+}
+
+/* All-content Start */
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.all-menu-content {
+    overflow: hidden;
+}
+/* Nav Bar Start */
+.nav-bar{
+    background-color:rgb(2, 212, 177);
+    text-align: center;
+    height: 100px;
+    /* display: inline; */
+    
+}
+.all-menu-content{
+    border-bottom: 3px solid;
+    background-color: #02D4B1;
+    overflow: hidden;
+}
+.logo{
+
+}
+.logo img{
+    text-align: left;
+    width: 80px;
+    height: 80px;
+    padding-bottom: 0px;
+}
+.menu-bar{
+
+
+}
+[class*="col-"]{
+    float: left;
+    padding: 4px;
+}
+/* for mobile */
+[class*="col-"]{
+    width: 100%; 
+}
+.menu-bar-items {
+    float: right;
+    margin-right: 20px;
+}
+.menu-bar-items li {
+    border-radius: 5px;
+    margin: 18px;
+    list-style: none;
+    padding:15px 20px;
+    float: left;
+
+}
+.menu-bar-items li a{
+    color: rgb(0 0 0);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition:0.5s;
+}
+
+.nav-bar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.menu-bar-items li :hover{
+    color:rgb(255, 255, 255);
+    box-shadow: 0px 3px 0px black;
+    border-top: 3px solid black;
+    padding: 15px 0;
+
+}
+/* Nav Bar End */
+/* Profile Start */
+.profile { 
+    background-image: linear-gradient(rgba(55, 59, 68, 0.65), rgba(66, 134, 244, 0.6)), url("../images/alamin.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 130px 10px;
+    text-align: center;
+    height: 100vh;
+}
+/* Top Weather Icon Start */
+.top-weather-icon {
+    position: absolute;
+    top: 120px;
+    right: 80px;
+    transition: transform 2s ease 0s;
+}
+.top-weather-icon:hover { transform: rotate(360deg); }
+/* Top Weather Icon End */
+/* Bottom Weather Icon End */
+.bottom-weather-icon {
+    position: absolute;
+    left: 4%;
+    top: 430px;
+    transition: transform 2s ease 0s;
+}
+.bottom-weather-icon:hover { transform: rotate(360deg); }
+}
+/* Bottom Weather Icon End */
+/* Profile Heading Start */
+.profile-heading h1 { 
+    
+
+}
+.profile-heading h1 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: Satisfy, cursive;
+    text-shadow: black 2px 3px 6px;
+}
+.profile-heading p {
+    color: rgb(221, 221, 221);
+    margin: 20px auto 0px;
+    text-align: center;
+    width: 60%;
+    font-size: 20px;
+}
+/* Profile Heading End */
+/* Profile End */
+/* About Style Start */
+.about-me{
+    background-color: #39a4ac;
+    padding:1% 7%;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.about-heading h1{
+    font-size: 33px;
+}
+.dotted-hr{
+    border:5px dotted white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+.about-me-image img{
+
+}
+.about-me-description p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 10px 0;
+}
+.about-me-hr{
+
+}
+.dwounload-buton{
+    background-color: #052d2f;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+.CV-dwoundload-buton a{
+
+}
+.CV-dwounload-buton a button{
+ 
+}
+.about-me::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* About Style End */
+/* Experience Start */
+
+.experience{
+    padding: 1p% 0%;
+ 
+}
+.experience:hover {
+    box-shadow: black 0px 0px 10px 0px;
+}
+.experience{
+    background-color: #fb5200;
+    border-radius: 5px;
+    padding: 10px;
+    height: 600px;
+    margin: 20px;
+    color: white;
+    transition:.3s ease-in-out;
+}
+.experience img{
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding:10px;
+
+}
+.card-title{
+    background-color: #616161;
+    width: 100%;
+    border-radius: 9px;
+    padding:9px;
+    margin:15px 0px;
+    text-align: center;
+    color: white;
+}
+.card-description{
+    padding-left: 30px;
+    font-size: 18px;
+}
+.card-description li{
+    padding-top: 5px;
+
+}
+.card::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.experience-icon{
+    text-align: center;
+}
+/* Experience End */
+/* Sill Card Design Start */
+.skill-progress-bar li{
+    list-style: none;
+    padding:20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    position: relative;
+}
+.skill-progress-bar{
+    padding-right: 45px;
+
+}
+.skill-progress-bar  li::before{
+    content: '';
+    position: absolute;
+    top: 50px;
+    background-color: #00d9ff73;
+    width: 100%;
+    height: 15px;
+    border-radius: 1000px;
+}
+.skill-progress-bar  li::after{
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background-color: rgb(0, 217, 255);
+    width: 0px;
+    height: 15px;
+    border-radius: 1000px;
+
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+.skill-progress-bar li.html::after{
+    animation-name: html;
+
+}
+@keyframes html{
+    to{
+        width:90%;
+    }
+}
+.skill-progress-bar li.Css::after{
+    animation-name:css;
+
+}
+@keyframes css{
+    to{
+        width:80%;
+    }
+}
+.skill-progress-bar li.Javascript::after{
+    animation-name: javascript;
+
+}
+@keyframes javascript{
+    to{
+        width:30%;
+    }
+}
+.skill-progress-bar li.Jquary::after{
+    animation-name: Jquary;
+
+}
+@keyframes Jquary{
+    to{
+        width:50%;
+    }
+}
+.skill-progress-bar li.Bootstrap::after{
+    animation-name: Bootstrap;
+
+}
+@keyframes Bootstrap{
+    to{
+        width:55%;
+    }
+}
+.skill-progress-bar li.Github::after{
+    animation-name: github;
+
+}
+@keyframes github{
+    to{
+        width:70%;
+    }
+}
+.skill-progress-bar li.web-design::after{
+    animation-name: web-design;
+
+}
+@keyframes web-design{
+    to{
+        width:60%;
+    }
+}
+section#skills {
+    overflow: hidden;
+}
+/* Skill Card Design End */
+/* Card Design End */
+.services-heading{
+    text-align: center;
+    font-size: 33px;
+    color: #fd4827;
+}
+#contact{
+    background-color: teal;
+}
+.dotted-hr {
+    border: 5px dotted;
+    width: 90px;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.skills {
+    font-size: 33px;
+    text-align: center;
+    margin: 18px 0px;
+    color: #f74929;
+}
+.services-single-items:hover {
+    background: #fff;
+    color: black;
+    box-shadow: inset 1px 0px 13px black;
+}
+.all-contact-content{
+    text-align: center;
+    padding: 20px;
+}
+.contact-me-email{
+
+}
+.contact-me-email input, textarea{
+    width: 100%;
+    padding:10px;
+    text-align: center;
+    font-size: 1rem;
+    border:none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    outline: none;
+    resize: none;
+}
+.contact-me-email button{
+    border:none;
+    color: white;
+    background-color: #052d2f;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 100px;
+    font-size: 15px;
+      cursor: pointer;
+}
+.social-button{
+    text-align: center;
+}
+.social-button button{
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+#contact::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* Footer Start */
+.footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.footer-menu{
+    
+}
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+}
+.footer-menu a:hover{
+    color: #fb5200;
+}
+.footer::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* Footer Ends */
